@@ -1,0 +1,5 @@
+h1 {
+    color: rgb(255, 0, 0);
+    box-shadow: 5px 10px 10px rgba(104, 0, 250, 0.3);
+    width: fit-content;
+}
