@@ -3,14 +3,15 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
         <title> Real Madrid - Football</title>
         <link rel="icon" type="image/x-icon" href="favicon.png">
     </head> 
     <body>
         <header class="topheader">
             <!--Logo-->
-            <a href="index.html">
-            <img class="logo" src="favicon.png" alt="Logo">
+            <a href="index.html" class="logo-link">
+                <img class="logo" src="favicon.png" alt="Logo">
             </a>
             <!--Navbar-->
             <nav class="nav">
@@ -20,6 +21,92 @@
                 <a class="nav-link" href="results.html">Results</a>
             </nav>
         </header>
-        <h1>Real Madrid - Football</h1>
+        <main class="main-content">
+            <div class="container">
+                <h1 class="page-title">The Beautiful Game</h1>
+                
+                <section class="intro-section card">
+                    <p class="intro-text">
+                        Association football, more commonly known as football or soccer, is the world's most popular sport. 
+                        It is a team sport played with a spherical ball between two teams of 11 players. 
+                        For a club like Real Madrid, football is not just a game; it is a legacy of excellence, strategy, and passion.
+                    </p>
+                </section>
+
+                <section class="rules-section">
+                    <div class="rules-content card">
+                        <h2 class="section-title">Key Rules of the Game</h2>
+                        <ul class="rules-list">
+                            <li>
+                                <strong>Objective</strong>
+                                <p>Score by getting the ball in the opposing goal.</p>
+                            </li>
+                            <li>
+                                <strong>No Hands</strong>
+                                <p>Players (except goalkeepers within their penalty area) strictly cannot use their hands or arms.</p>
+                            </li>
+                            <li>
+                                <strong>Offside</strong>
+                                <p>A player is in an offside position if they are nearer to the opponent's goal line than both the ball and the second-last opponent.</p>
+                            </li>                    
+                            <li>
+                                <strong>Fouls</strong>
+                                <p>Unfair play results in free kicks or penalties. Serious offenses are punished with Yellow or Red cards.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <figure class="sport-figure card">
+                        <img src="images/Football/football-field.jpg" alt="Diagram of a football field" class="sport-image">
+                        <figcaption>Standard layout of a professional football pitch</figcaption>
+                    </figure>
+                </section>
+
+                <section class="format-section card">
+                    <h2 class="section-title">Match Structure & Format</h2>
+                    <p class="section-subtitle">A professional football match follows a strict time and player structure defined by FIFA regulations.</p>
+                    
+                    <div class="table-wrapper">
+                        <table class="sport-table">
+                            <thead>
+                                <tr>
+                                    <th>Component</th>
+                                    <th>Details</th>
+                                    <th>Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Match Duration</td>
+                                    <td>90 Minutes</td>
+                                    <td>Split into two halves of 45 minutes.</td>
+                                </tr>
+                                <tr>
+                                    <td>Team Size</td>
+                                    <td>11 Players</td>
+                                    <td>Includes 1 Goalkeeper and 10 outfield players.</td>
+                                </tr>
+                                <tr>
+                                    <td>Substitutions</td>
+                                    <td>5 Players</td>
+                                    <td>Allowed during 3 stoppage windows per team.</td>
+                                </tr>
+                                <tr>
+                                    <td>Refereeing</td>
+                                    <td>1 Main Referee</td>
+                                    <td>Assisted by 2 linesmen and VAR.</td>
+                                </tr>
+                                <tr>
+                                    <td>Pitch Surface</td>
+                                    <td>Grass or Hybrid</td>
+                                    <td>Real Madrid plays on a state-of-the-art hybrid turf.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </main>
+
     </body>
 </html>
