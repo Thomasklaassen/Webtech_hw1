@@ -317,3 +317,43 @@ figcaption {
 .sport-table tbody tr:hover {
     background-color: rgba(254, 190, 16, 0.1); 
 }
+
+#resultstable {
+    width: 100%;
+    border-collapse: collapse;
+    width: 100%;
+    overflow: hidden; 
+
+}
+th {
+    border: 1px solid #000;
+    padding: 1px 1px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+td {
+    border: 1px solid #000;
+    padding: 1px 1px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+td[data="W"] {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+td[data="L"] {
+    background-color: red;
+    font-weight: bold;
+}
+td[data="D"] {
+    background-color: yellow;
+    font-weight: bold;
+}
+td[data="2"], td[data="3"] {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+td[data="1"] {
+    background-color: gold;
+    font-weight: bold;
+}
