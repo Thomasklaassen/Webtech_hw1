@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\history.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:history.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\images\\history\\alfredo-di-stefano.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\history\\alfredo-di-stefano.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\images\\history\\stadiumold.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\history\\stadiumold.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\images\\history\\Madrid_FC_first_team.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\history\\Madrid_FC_first_team.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\images\\history\\trophies.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\history\\trophies.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\football.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:football.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\results.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:results.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\players.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:players.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\style.css||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:style.css||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "alfredo-di-stefano.jpg - Bitmap [980x727, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\images\\history\\alfredo-di-stefano.jpg",
+              "RelativeDocumentMoniker": "images\\history\\alfredo-di-stefano.jpg",
+              "ToolTip": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\images\\history\\alfredo-di-stefano.jpg - Bitmap [980x727, 24 bit, JPG]",
+              "RelativeToolTip": "images\\history\\alfredo-di-stefano.jpg - Bitmap [980x727, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-02-18T08:42:37.396Z",
+              "EditorCaption": " - Bitmap [980x727, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Madrid_FC_first_team.jpg - Bitmap [640x417, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\images\\history\\Madrid_FC_first_team.jpg",
+              "RelativeDocumentMoniker": "images\\history\\Madrid_FC_first_team.jpg",
+              "ToolTip": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\images\\history\\Madrid_FC_first_team.jpg - Bitmap [640x417, 24 bit, JPG]",
+              "RelativeToolTip": "images\\history\\Madrid_FC_first_team.jpg - Bitmap [640x417, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-02-18T08:42:36.802Z",
+              "EditorCaption": " - Bitmap [640x417, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "stadiumold.png - PNG [587x585, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\images\\history\\stadiumold.png",
+              "RelativeDocumentMoniker": "images\\history\\stadiumold.png",
+              "ToolTip": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\images\\history\\stadiumold.png - PNG [587x585, 32 bit, PNG]",
+              "RelativeToolTip": "images\\history\\stadiumold.png - PNG [587x585, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-02-18T08:42:36.153Z",
+              "EditorCaption": " - PNG [587x585, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "trophies.jpg - Bitmap [1920x1080, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\images\\history\\trophies.jpg",
+              "RelativeDocumentMoniker": "images\\history\\trophies.jpg",
+              "ToolTip": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\images\\history\\trophies.jpg - Bitmap [1920x1080, 24 bit, JPG]",
+              "RelativeToolTip": "images\\history\\trophies.jpg - Bitmap [1920x1080, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-02-18T08:42:33.919Z",
+              "EditorCaption": " - Bitmap [1920x1080, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-18T08:31:28.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "results.html",
+              "DocumentMoniker": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\results.html",
+              "RelativeDocumentMoniker": "results.html",
+              "ToolTip": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\results.html",
+              "RelativeToolTip": "results.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-18T08:24:22.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "players.html",
+              "DocumentMoniker": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\players.html",
+              "RelativeDocumentMoniker": "players.html",
+              "ToolTip": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\players.html",
+              "RelativeToolTip": "players.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-18T08:24:21.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-18T08:24:20.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "history.html",
+              "DocumentMoniker": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\history.html",
+              "RelativeDocumentMoniker": "history.html",
+              "ToolTip": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\history.html",
+              "RelativeToolTip": "history.html",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowEEAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-18T08:24:19.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "favicon.png - PNG [2400x2400, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\favicon.png",
+              "RelativeDocumentMoniker": "favicon.png",
+              "ToolTip": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\favicon.png - PNG [2400x2400, 32 bit, PNG]",
+              "RelativeToolTip": "favicon.png - PNG [2400x2400, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-02-18T08:24:17.858Z",
+              "EditorCaption": " - PNG [2400x2400, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\style.css",
+              "RelativeDocumentMoniker": "style.css",
+              "ToolTip": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\style.css",
+              "RelativeToolTip": "style.css",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-18T08:20:50.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "football.html",
+              "DocumentMoniker": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\football.html",
+              "RelativeDocumentMoniker": "football.html",
+              "ToolTip": "C:\\Users\\naouf\\source\\repos\\Webtech_hw1\\football.html",
+              "RelativeToolTip": "football.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-18T08:20:18.964Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
