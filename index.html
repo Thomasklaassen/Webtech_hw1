@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
@@ -8,13 +8,14 @@
         <meta name="description" content="Welcome to the 'official' Real Madrid website, your ultimate source for news, history, players, and results of one of the most iconic football clubs in the world.">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
     </head> 
-    <body>
+    <body id="top">
         <header class="topheader">
             <!--Logo-->
             <a href="index.html" class="logo-link"> <img class="logo" src="favicon.png" alt="Logo">
 </a>
             <!--Navbar-->
             <nav class="nav">
+                <a class="nav-link active" href="index.html">Home</a>
                 <a class="nav-link" href="history.html">History</a>
                 <a class="nav-link" href="players.html">Players</a>
                 <a class="nav-link" href="football.html">Football</a>
@@ -24,8 +25,8 @@
 
         <main class="main-content">
             <div class="container">
-                <h1 class="page-title" style="margin-bottom: 1px;">Welcome to Real Madrid</h1>
-                <h2 class="subtitle" style="text-align: center; margin-bottom: 40px;"><i>"Hala Madrid y nada más"</i></h2>
+                <h1 class="page-title page-title--home">Welcome to Real Madrid</h1>
+                <h2 class="subtitle subtitle--home"><i>"Hala Madrid y nada más"</i></h2>
                 <img src="images/index/homeimage.jpg" alt="2024 Champions League Winners" class="home-image">
                 <section class="card"> <!--History card-->
                     <h2 class="section-title">History</h2>
@@ -70,7 +71,6 @@
                     </div>
                     <button class="read-more-button" onclick="window.location.href='football.html'">Read more about our football</button>
                 </section>
-                </section>
                     <section class="card"> <!--results card-->
                     <h2 class="section-title">Results</h2>
                     <p class="section-subtitle">Our recent performance.</p>
@@ -87,6 +87,13 @@
                 </section>
             </div>
         </main>
-
+        <a href="#top" class="back-to-top" aria-label="Go to top"> &#8593; </a>
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="footer-text">&copy; 2026 All rights reserved to Real Madrid C.F.</p>
+                <p class="footer-text">For official league news, visit <a class="footer-link" href="https://www.realmadrid.com" target="_blank" rel="noopener noreferrer">Real Madrid's Official Website</a>
+                </p>
+            </div>
+        </footer>
     </body>
 </html>

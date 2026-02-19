@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
@@ -8,13 +8,14 @@
         <meta name="description" content="A comprehensive overview of Real Madrid's rich history, from its founding in 1902 to its status as one of the most successful football clubs in the world.">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
     </head> 
-    <body>
+    <body id="top">
         <header class="topheader">
             <!--Logo-->
             <a href="index.html" class="logo-link"> <img class="logo" src="favicon.png" alt="Logo">
 </a>
             <!--Navbar-->
             <nav class="nav">
+                <a class="nav-link" href="index.html">Home</a>
                 <a class="nav-link active" href="history.html">History</a>
                 <a class="nav-link" href="players.html">Players</a>
                 <a class="nav-link" href="football.html">Football</a>
@@ -77,7 +78,7 @@
 
                 <section class="format-section card">
                     <h2 class="section-title">The Trophy Room</h2>
-                    <figure class="sport-figure" style="margin-bottom: 20px;">
+                    <figure class="sport-figure sport-figure--spaced">
                         <img src="images/history/trophies.jpg" alt="Champions League Trophy Display" class="sport-image">
                     </figure>
                     
@@ -112,5 +113,13 @@
                 </section>
             </div>
         </main>
+        <a href="#top" class="back-to-top" aria-label="Go to top"> &#8593; </a>
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="footer-text">&copy; 2026 All rights reserved to Real Madrid C.F.</p>
+                <p class="footer-text">For official league news, visit <a class="footer-link" href="https://www.realmadrid.com" target="_blank" rel="noopener noreferrer">Real Madrid's Official Website</a>
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
