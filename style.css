@@ -381,3 +381,36 @@ td[data="1"] {
     display: block;
     z-index: -10;
 }
+@media screen and (max-width: 768px) {
+        .topheader {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 10px;
+    }
+    .logo-link {
+        position: static;
+        transform: none;
+        margin-bottom: 15px;
+        justify-content: center;
+    }
+    .nav {
+        gap: 15px;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+    .page-title {
+        font-size: 2rem; 
+        margin-bottom: 25px;
+    }
+    
+    .main-content {
+        padding: 20px 10px;
+    }
+    .player-card {
+        width: 260px;
+    }
+    
+    .player-image {
+        height: 320px;
+    }
+}
