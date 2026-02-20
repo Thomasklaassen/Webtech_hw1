@@ -9,103 +9,101 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
     </head> 
     <body id="top">
-        <header class="topheader">
-            <!--Logo-->
-            <a href="index.html" class="logo-link"> <img class="logo" src="favicon.png" alt="Logo">
+        <header class="header">
+            <a href="index.html" class="header__logo-link"> <img class="header__logo" src="favicon.png" alt="Logo">
 </a>
-            <!--Navbar-->
             <nav class="nav">
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link active" href="history.html">History</a>
-                <a class="nav-link" href="players.html">Players</a>
-                <a class="nav-link" href="football.html">Football</a>
-                <a class="nav-link" href="results.html">Results</a>
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link nav__link--active" href="history.html">History</a>
+                <a class="nav__link" href="players.html">Players</a>
+                <a class="nav__link" href="football.html">Football</a>
+                <a class="nav__link" href="results.html">Results</a>
             </nav>
         </header>
 
-        <main class="main-content">
+        <main class="main">
             <div class="container">
                 <h1 class="page-title">A Legacy of Glory</h1>
                 
                 <section class="card">
                     <h2 class="section-title">1902: The Beginning</h2>
                     <p class="section-subtitle">The club was officially founded on March 6, 1902, as Madrid Football Club.</p>
-                    <div class="rules-section">
-                        <div class="rules-content">
+                    <div class="rules">
+                        <div class="rules__content">
                             <p>In 1920, King Alfonso XIII granted the club the title "Real" (Royal). The original team laid the foundation for what would become the most successful club in football history.</p>
                         </div>
-                        <figure class="sport-figure">
-                            <img src="images/history/Madrid_FC_first_team.jpg" alt="Original Madrid FC team" class="sport-image">
-                            <figcaption>The first Madrid FC team in 1902.</figcaption>
+                        <figure class="figure">
+                            <img src="images/history/Madrid_FC_first_team.jpg" alt="Original Madrid FC team" class="figure__image">
+                            <figcaption class="figure__caption">The first Madrid FC team in 1902.</figcaption>
                         </figure>
                     </div>
                 </section>
 
-                <section class="rules-section">
-                    <div class="rules-content card">
+                <section class="rules">
+                    <div class="rules__content card">
                         <h2 class="section-title">The Era of Di St&eacute;fano</h2>
-                        <ul class="rules-list">
-                            <li>
-                                <strong>Five in a Row</strong>
-                                <p>Led by Alfredo Di St&eacute;fano, Real Madrid won the first five European Cups ever held between 1956 and 1960.</p>
+                        <ul class="rules__list">
+                            <li class="rules__list-item">
+                                <strong class="rules__list-title">Five in a Row</strong>
+                                <p class="rules__list-text">Led by Alfredo Di St&eacute;fano, Real Madrid won the first five European Cups ever held between 1956 and 1960.</p>
                             </li>
-                            <li>
-                                <strong>A Growing Fortress</strong>
-                                <p>The club's home, the Santiago Bernab&eacute;u, became a temple of football during this legendary era.</p>
+                            <li class="rules__list-item">
+                                <strong class="rules__list-title">A Growing Fortress</strong>
+                                <p class="rules__list-text">The club's home, the Santiago Bernab&eacute;u, became a temple of football during this legendary era.</p>
                             </li>
                         </ul>
                     </div>
-                    <figure class="sport-figure card">
-                        <img src="images/history/alfredo-di-stefano.jpg" alt="Alfredo Di St&eacute;fano with trophies" class="sport-image">
-                        <figcaption>Alfredo Di St&eacute;fano with the first five European Cups.</figcaption>
+                    <figure class="figure card">
+                        <img src="images/history/alfredo-di-stefano.jpg" alt="Alfredo Di St&eacute;fano with trophies" class="figure__image">
+                        <figcaption class="figure__caption">Alfredo Di St&eacute;fano with the first five European Cups.</figcaption>
                     </figure>
                 </section>
 
                <section class="card">
                     <h2 class="section-title">Modern Greatness</h2>
                     <p class="section-subtitle">The tradition of winning continues into the 21st century.</p>
-                    <div class="rules-section">
-                        <figure class="sport-figure">
-                            <img src="images/history/rmd.jpg" alt="Real Madrid 2024 Champions" class="sport-image">
-                            <figcaption>Celebrating the 2024 Champions League title.</figcaption>
+                    <div class="rules">
+                        <figure class="figure">
+                            <img src="images/history/rmd.jpg" alt="Real Madrid 2024 Champions" class="figure__image">
+                            <figcaption class="figure__caption">Celebrating the 2024 Champions League title.</figcaption>
                         </figure>
-                        <figure class="sport-figure">
-                            <img src="images/history/stadiumold.png" alt="Historical Stadium View" class="sport-image">
-                            <figcaption>A historic look at the Santiago Bernab&eacute;u.</figcaption>
+                        <figure class="figure">
+                            <img src="images/history/stadiumold.png" alt="Historical Stadium View" class="figure__image">
+                            <figcaption class="figure__caption">A historic look at the Santiago Bernab&eacute;u.</figcaption>
                         </figure>
                     </div>
                 </section>
 
-                <section class="format-section card">
+                <section class="card">
                     <h2 class="section-title">The Trophy Room</h2>
-                    <figure class="sport-figure sport-figure--spaced">
-                        <img src="images/history/trophies.jpg" alt="Champions League Trophy Display" class="sport-image">
+                    <figure class="figure figure--spaced">
+                        <img src="images/history/trophies.jpg" alt="Champions League Trophy Display" class="figure__image">
                     </figure>
                     
                     <div class="table-wrapper">
-                        <table class="sport-table">
+                        <table class="table">
                             <thead>
-                                <tr>
-                                    <th>Competition</th>
-                                    <th>Count</th>
-                                    <th>Most Recent</th>
+                                <tr class="table__header-row">
+                                    <th class="table__header-cell">Competition</th>
+                                    <th class="table__header-cell">Count</th>
+                                    <th class="table__header-cell">Most Recent</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>UEFA Champions League</td>
-                                    <td>15</td>
-                                    <td>2023/24</td>
+                                <tr class="table__row">
+                                    <td class="table__cell">UEFA Champions League</td>
+                                    <td class="table__cell">15</td>
+                                    <td class="table__cell">2023/24</td>
                                 </tr>
-                                <tr>
-                                    <td>La Liga</td>
-                                    <td>36</td>
-                                    <td>2023/24</td>
+                                <tr class="table__row">
+                                    <td class="table__cell">La Liga</td>
+                                    <td class="table__cell">36</td>
+                                    <td class="table__cell">2023/24</td>
                                 </tr>
-                                <tr>
-                                    <td>Copa del Rey</td>
-                                    <td>20</td>
-                                    <td>2022/23</td>
+                                <tr class="table__row">
+                                    <td class="table__cell">Copa del Rey</td>
+                                    <td class="table__cell">20</td>
+                                    <td class="table__cell">2022/23</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -115,9 +113,9 @@
         </main>
         <a href="#top" class="back-to-top" aria-label="Go to top"> &#8593; </a>
         <footer class="footer">
-            <div class="footer-container">
-                <p class="footer-text">&copy; 2026 All rights reserved to Real Madrid C.F.</p>
-                <p class="footer-text">For official league news, visit <a class="footer-link" href="https://www.realmadrid.com" target="_blank" rel="noopener noreferrer">Real Madrid's Official Website</a>
+            <div class="footer__container">
+                <p class="footer__text">&copy; 2026 All rights reserved to Real Madrid C.F.</p>
+                <p class="footer__text">For official league news, visit <a class="footer__link" href="https://www.realmadrid.com" target="_blank" rel="noopener noreferrer">Real Madrid's Official Website</a>
                 </p>
             </div>
         </footer>

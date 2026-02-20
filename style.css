@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 * {
@@ -12,7 +12,9 @@ body {
     color: #333333;
     line-height: 1.6;
 }
-.topheader {
+
+/*Header*/
+.header {
     background-color: #ffffff;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     padding: 0 20px;
@@ -24,7 +26,7 @@ body {
     justify-content: center;
     position: relative;
 }
-.header-content {
+.header__content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;  
@@ -34,7 +36,7 @@ body {
     justify-content: center;
     position: relative;
 }
-.logo-link {
+.header__logo-link {
     position: absolute;
     left: 20px;
     top : 50%;
@@ -44,12 +46,12 @@ body {
     text-decoration: none;
     gap: 15px;
 }
-.logo {
+.header__logo {
     width: 80px;
     height: auto;
     margin-right: 10px;
 }
-.brand-name {
+.header__brand-name {
     font-size: 22px;
     font-weight: 700;
     color: #333333;
@@ -57,11 +59,13 @@ body {
     letter-spacing: 1px;
     display: block;
 }
+
+/*Navigation*/
 .nav {
     display: flex;
     gap: 40px;
 }
-.nav-link {
+.nav__link {
     text-decoration: none;
     color: #333333;
     font-weight: 600;
@@ -70,7 +74,7 @@ body {
     padding: 10px 0;
     transition: color 0.3s;
 }
-.nav-link::after {
+.nav__link::after {
     content: '';
     position: absolute;
     width: 0;
@@ -80,12 +84,16 @@ body {
     background-color: #EFC460;
     transition: width 0.3s;
 }
-.nav-link:hover, .nav-link.active {
+.nav__link:hover, 
+.nav__link--active {
     color: #00529F;
 }
-.nav-link:hover::after, .nav-link.active::after {
+.nav__link:hover::after, 
+.nav__link--active::after {
     width: 100%;
 }
+
+/*Back to top function*/
 .back-to-top {
     position: fixed; 
     bottom: 30px;        
@@ -103,20 +111,76 @@ body {
     z-index: 1000;        
     transition: background-color 0.3s, transform 0.3s; 
 }
-
 .back-to-top:hover {
     background-color: #EFC460;
     color: #003366;            
     transform: translateY(-3px);
 }
+
+/*Layout*/
+.main {
+    padding: 40px 20px;
+}
+.container {
+    max-width: 1100px; 
+    margin: 0 auto;
+}
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    border-top: 4px solid #EFC460;
+}
+
+/*lettering*/
+.page-title {
+    color: #003366;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: -1px;
+}
+.page-title--home {
+    margin-bottom: 0;
+}
 .subtitle--home {
     text-align: center;
     margin-bottom: 40px;
 }
-.sport-figure--spaced {
+.section-title {
+    color: #00529F;
+    font-size: 1.8rem;
     margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    display: inline-block;
 }
-.read-more-button{
+.section-subtitle {
+    margin-bottom: 20px;
+    color: #666666;
+}
+.intro-text {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #666666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*Home*/
+.home-image {
+    width: 80%;
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto 30px;   
+    display: block;
+    z-index: -10;
+}
+
+/*Buttons*/
+.button {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -124,10 +188,71 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
-.read-more-button:hover {
+.button:hover {
     background-color: #003366;
 }
+
+/*Figures / Media*/
+.figure {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.figure--spaced {
+    margin-bottom: 20px;
+}
+.figure__image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 400px;
+    object-fit: cover;
+}
+.figure__caption {
+    margin-top: 15px;
+    color: #666666;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/*Rules Section*/
+.rules {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.rules__content {
+    flex: 1;
+    min-width: 300px;
+}
+.rules__list {
+    list-style: none;
+}
+.rules__list-item {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 4px solid #00529F;
+}
+.rules__list-title {
+    display: block;
+    color: #003366;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.rules__list-text {
+    color: #666666;
+    font-size: 0.95rem;
+}
+
+/*Players Section*/
 .player-grid {
     display: flex;
     overflow-x: auto;     
@@ -141,7 +266,7 @@ body {
 .player-grid::-webkit-scrollbar {
     display: none;
 }
-.positions {
+.player-grid__positions {
     color: black;
     margin-left: 20px;
     margin-bottom: 70px;
@@ -161,21 +286,25 @@ body {
 .player-card:hover {
     transform: scale(1.05) translateY(-5px); 
 }
-.player-image {
+.player-card__image {
     width: 100%;
     height: 380px;
     object-fit: cover; 
     object-position: top;
 }
-.player-info {
+.player-card__info {
     padding: 15px;
     text-align: center;
 }
-.player-name {
+.player-card__name {
     margin: 10px 0;
     color: #00529F;
 }
-.player-link {
+.player-card__position,
+.player-card__number {
+    color: #333333;
+}
+.player-card__link {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 15px;
@@ -184,146 +313,66 @@ body {
     text-decoration: none;
     border-radius: 5px;
 }
-.player-link:hover {
+.player-card__link:hover {
     background-color: #003366;
 }
-.main-content {
-    padding: 40px 20px;
-}
-.container {
-    max-width: 1100px; 
-    margin: 0 auto;
-}
-.card {
-    background: #ffffff;
-    border-radius: 12px;
-    padding: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 40px;
-    border-top: 4px solid #EFC460;
-}
-.page-title {
-    color: #003366;
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 40px;
-    letter-spacing: -1px;
-}
-.intro-text {
-    font-size: 1.2rem;
-    text-align: center;
-    color: #666666;
-    max-width: 800px;
-    margin: 0 auto;
-}
-.section-title {
-    color: #00529F;
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
-    display: inline-block;
-}
-.rules-section {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 30px;
-    margin-bottom: 40px;
-}
-.rules-content {
-    flex: 1;
-    min-width: 300px;
-}
-.rules-list {
-    list-style: none;
-}
-.rules-list li {
-    margin-bottom: 20px;
-    padding-left: 20px;
-    border-left: 4px solid #00529F;
-}
-.rules-list strong {
-    display: block;
-    color: #003366;
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-}
-.rules-list p {
-    color: #666666;
-    font-size: 0.95rem;
-}
-.sport-figure {
-    flex: 1;
-    min-width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.sport-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    max-height: 400px;
-    object-fit: cover;
-}
-figcaption {
-    margin-top: 15px;
-    color: #666666;
-    font-style: italic;
-    font-size: 0.9rem;
-}
-.section-subtitle {
-    margin-bottom: 20px;
-    color: #666666;
-}
+
+/*Tables*/
 .table-wrapper {
     overflow-x: auto; 
 }
-.sport-table {
+.table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
     border-radius: 8px;
     overflow: hidden; 
 }
-.sport-table td, .sport-table th {
+.table__cell, 
+.table__header-cell {
     padding: 5px 10px;
     text-align: left;
     border-bottom: 1px solid black;
 }
-.sport-table thead tr {
+.table__header-row {
     background-color: #00529F;
     color: #ffffff;
 }
-.sport-table tbody tr:hover {
+.table__row:hover {
     background-color: rgba(254, 190, 16, 0.1); 
 }
-.resultstable {
+
+/*Results Table*/
+.results-table {
     width: 100%;
     border-collapse: collapse;
 }
-th, td {
+.results-table th, 
+.results-table td {
     border: 1px solid #000;
     padding: 1px 1px;
     text-align: center;
 }
-td[data-result="W"], td[data-position="2"], td[data-position="3"] {
+.results-table td[data-result="W"], 
+.results-table td[data-position="2"], 
+.results-table td[data-position="3"] {
     background-color: lightgreen;
     font-weight: bold;
 }
-td[data-result="L"] {
+.results-table td[data-result="L"] {
     background-color: red;
     font-weight: bold;
 }
-td[data-result="D"] {
+.results-table td[data-result="D"] {
     background-color: yellow;
     font-weight: bold;
 }
-td[data-position="1"] {
+.results-table td[data-position="1"] {
     background-color: gold;
     font-weight: bold;
 }
+
+/*Footer */
 .footer {
     background-color: #00529F;
     color: #ffffff; 
@@ -331,7 +380,7 @@ td[data-position="1"] {
     margin-top: 50px;
     border-top: 5px solid #EEB314;
 }
-.footer-container {
+.footer__container {
     max-width: 1200px;
     margin: 0 auto; 
     text-align: center;
@@ -339,38 +388,31 @@ td[data-position="1"] {
     flex-direction: column;
     gap: 12px;
 }
-.footer-text {
+.footer__text {
     margin: 0;
     font-size: 0.95rem;
     color: #e0e0e0;
     letter-spacing: 0.5px;
 }
-.footer-link {
+.footer__link {
     color: #EEB314;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease; 
 }
-.footer-link:hover,
-.footer-link:focus {
+.footer__link:hover,
+.footer__link:focus {
     color: #ffffff;
     text-decoration: underline;
 }
-.home-image {
-    width: 80%;
-    height: auto;
-    border-radius: 12px;
-    margin: 0 auto 30px;   
-    display: block;
-    z-index: -10;
-}
+/*Responsive Design*/
 @media screen and (max-width: 768px) {
-        .topheader {
+    .header {
         flex-direction: column;
         height: auto;
         padding: 15px 10px;
     }
-    .logo-link {
+    .header__logo-link {
         position: static;
         transform: none;
         margin-bottom: 15px;
@@ -385,15 +427,13 @@ td[data-position="1"] {
         font-size: 2rem; 
         margin-bottom: 25px;
     }
-    
-    .main-content {
+    .main {
         padding: 20px 10px;
     }
     .player-card {
         width: 260px;
     }
-    
-    .player-image {
+    .player-card__image {
         height: 320px;
     }
 }
