@@ -15,8 +15,6 @@ body {
 .topheader {
     background-color: #ffffff;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    position: sticky;
-    top: 0;
     padding: 0 20px;
     z-index: 1000;
     width: 100%;
@@ -50,7 +48,6 @@ body {
     width: 80px;
     height: auto;
     margin-right: 10px;
-
 }
 .brand-name {
     font-size: 22px;
@@ -80,7 +77,7 @@ body {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #FEBE10;
+    background-color: #EFC460;
     transition: width 0.3s;
 }
 .nav-link:hover, .nav-link.active {
@@ -97,7 +94,7 @@ body {
     height: 50px;        
     background-color: #00529F; 
     color: white;         
-    border-radius: 50%; 
+    border-radius: 40%; 
     text-align: center;
     line-height: 50px; 
     font-size: 24px;      
@@ -108,17 +105,9 @@ body {
 }
 
 .back-to-top:hover {
-    background-color: #FEBE10;
+    background-color: #EFC460;
     color: #003366;            
     transform: translateY(-3px);
-}
-.page-title {
-    color: #00529F;
-    text-align: center;
-    margin-bottom: 40px;
-}
-.page-title--home {
-    margin-bottom: 1px;
 }
 .subtitle--home {
     text-align: center;
@@ -143,34 +132,17 @@ body {
     display: flex;
     overflow-x: auto;     
     overflow-y: hidden; 
-    flex-wrap: nowrap;     
     justify-content: flex-start; 
     gap: 25px;
     margin-left: 20px;
     padding-bottom: 20px;
-    
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-    
 }
 .player-grid::-webkit-scrollbar {
     display: none;
 }
-.player-grid::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
-}
-.player-grid::-webkit-scrollbar-thumb {
-    background: #00529F; 
-    border-radius: 10px;
-}
-
-.player-grid::-webkit-scrollbar-thumb:hover {
-    background: #003366;
-}
 .positions {
     color: black;
-    text-align: left;
     margin-left: 20px;
     margin-bottom: 70px;
     font-size: 30px;
@@ -181,8 +153,7 @@ body {
     flex: 0 0 auto;
     scroll-snap-align: center;
     border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin: 20px 10px 30px 10px;
     overflow: hidden;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     transition: transform 0.4s;
@@ -195,9 +166,6 @@ body {
     height: 380px;
     object-fit: cover; 
     object-position: top;
-}
-.player-image:hover {
-    filter: brightness(100%);
 }
 .player-info {
     padding: 15px;
@@ -232,14 +200,13 @@ body {
     padding: 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
-    border-top: 4px solid #FEBE10;
+    border-top: 4px solid #EFC460;
 }
 .page-title {
     color: #003366;
     font-size: 3rem;
     text-align: center;
     margin-bottom: 40px;
-    text-transform: uppercase;
     letter-spacing: -1px;
 }
 .intro-text {
@@ -266,7 +233,6 @@ body {
 .rules-content {
     flex: 1;
     min-width: 300px;
-    margin-bottom: 0;
 }
 .rules-list {
     list-style: none;
@@ -293,7 +259,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0;
 }
 .sport-image {
     width: 100%;
@@ -319,12 +284,11 @@ figcaption {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    width: 100%;
     border-radius: 8px;
     overflow: hidden; 
 }
-.sport-table td, th {
-    padding: 18px 25px;
+.sport-table td, .sport-table th {
+    padding: 5px 10px;
     text-align: left;
     border-bottom: 1px solid black;
 }
@@ -332,18 +296,12 @@ figcaption {
     background-color: #00529F;
     color: #ffffff;
 }
-.sport-table tbody tr:last-child td {
-    border-bottom: 1px solid black;
-}
-
 .sport-table tbody tr:hover {
     background-color: rgba(254, 190, 16, 0.1); 
 }
-
 .resultstable {
     width: 100%;
     border-collapse: collapse;
-    overflow: hidden; 
 }
 th, td {
     border: 1px solid #000;
@@ -393,14 +351,14 @@ td[data-position="1"] {
     font-weight: bold;
     transition: color 0.3s ease; 
 }
-.footer-link:hover:hover,
+.footer-link:hover,
 .footer-link:focus {
     color: #ffffff;
     text-decoration: underline;
 }
 .home-image {
     width: 80%;
-    height: auto;;
+    height: auto;
     border-radius: 12px;
     margin: 0 auto 30px;   
     display: block;
