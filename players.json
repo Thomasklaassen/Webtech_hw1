@@ -1,0 +1,192 @@
+{
+  "sections": [
+    {
+      "title": "Goalkeepers",
+      "players": [
+        {
+          "name": "Thibaut Courtois",
+          "position": "Goalkeeper",
+          "number": 1,
+          "image": "images/players/courtois.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/thibaut-courtois"
+        },
+        {
+          "name": "Andriy Lunin",
+          "position": "Goalkeeper",
+          "number": 13,
+          "image": "images/players/lunin.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/andriy-lunin"
+        }
+      ]
+    },
+    {
+      "title": "Defenders",
+      "players": [
+        {
+          "name": "Dani Carvajal",
+          "position": "Defender",
+          "number": 2,
+          "image": "images/players/carvajal.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/daniel-carvajal-ramos"
+        },
+        {
+          "name": "Eder Militão",
+          "position": "Defender",
+          "number": 3,
+          "image": "images/players/militao.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/eder-gabriel-militao"
+        },
+        {
+          "name": "David Alaba",
+          "position": "Defender",
+          "number": 4,
+          "image": "images/players/alaba.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/david-alaba"
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "position": "Defender",
+          "number": 12,
+          "image": "images/players/trent.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/trent-alexander-arnold"
+        },
+        {
+          "name": "Raúl Asencio",
+          "position": "Defender",
+          "number": 17,
+          "image": "images/players/asencio.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/raul-asencio-del-rosario"
+        },
+        {
+          "name": "Álvaro Carreras",
+          "position": "Defender",
+          "number": 18,
+          "image": "images/players/carreras.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/alvaro-fernandez-carreras"
+        },
+        {
+          "name": "Fran García",
+          "position": "Defender",
+          "number": 20,
+          "image": "images/players/garcia.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/francisco-jose-garcia-torres"
+        },
+        {
+          "name": "Antonio Rüdiger",
+          "position": "Defender",
+          "number": 22,
+          "image": "images/players/rudiger.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/antonio-rudiger"
+        },
+        {
+          "name": "Ferland Mendy",
+          "position": "Defender",
+          "number": 23,
+          "image": "images/players/mendy.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/ferland-mendy"
+        },
+        {
+          "name": "Dean Huijsen",
+          "position": "Defender",
+          "number": 24,
+          "image": "images/players/huijsen.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/dean-huijsen"
+        }
+      ]
+    },
+    {
+      "title": "Midfielders",
+      "players": [
+        {
+          "name": "Jude Bellingham",
+          "position": "Midfielder",
+          "number": 5,
+          "image": "images/players/bellingham.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/jude-bellingham"
+        },
+        {
+          "name": "Eduardo Camavinga",
+          "position": "Midfielder",
+          "number": 6,
+          "image": "images/players/camavinga.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/eduardo-camavinga"
+        },
+        {
+          "name": "Fede Valverde",
+          "position": "Midfielder",
+          "number": 8,
+          "image": "images/players/valverde.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/federico-santiago-valverde-dipetta"
+        },
+        {
+          "name": "Aurélien Tchouaméni",
+          "position": "Midfielder",
+          "number": 14,
+          "image": "images/players/tchouameni.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/aurelien-tchouameni"
+        },
+        {
+          "name": "Arda Güler",
+          "position": "Midfielder",
+          "number": 15,
+          "image": "images/players/guler.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/arda-guler"
+        },
+        {
+          "name": "Daniel Ceballos",
+          "position": "Midfielder",
+          "number": 19,
+          "image": "images/players/ceballos.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/daniel-ceballos-fernandez"
+        }
+      ]
+    },
+    {
+      "title": "Forwards",
+      "players": [
+        {
+          "name": "Vinícius Júnior",
+          "position": "Forward",
+          "number": 7,
+          "image": "images/players/vinicius.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/vinicius-paixao-de-oliveira-junior"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "position": "Forward",
+          "number": 10,
+          "image": "images/players/mbappe.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/kylian-mbappe"
+        },
+        {
+          "name": "Rodrygo Goes",
+          "position": "Forward",
+          "number": 11,
+          "image": "images/players/rodrygo.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/rodrygo-goes"
+        },
+        {
+          "name": "Gonzalo García",
+          "position": "Forward",
+          "number": 16,
+          "image": "images/players/gonzalo.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/gonzalo-garcia-torres"
+        },
+        {
+          "name": "Brahim Díaz",
+          "position": "Forward",
+          "number": 21,
+          "image": "images/players/brahim.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/brahim-diaz"
+        },
+        {
+          "name": "Franco Mastantuono",
+          "position": "Forward",
+          "number": 30,
+          "image": "images/players/franco.jpg",
+          "link": "https://www.realmadrid.com/en-US/football/first-team/players/franco-mastantuono"
+        }
+      ]
+    }
+  ]
+}
