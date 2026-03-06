@@ -26,32 +26,32 @@
             <div class="container">
                 <h1 class="page-title">Current Players 2025/2026</h1>
 
-                <!-- File upload area - user picks the players.json file here -->
-                <div id="upload-area" style="margin-bottom: 20px;">
-                    <p>Please load the players data:</p>
-                    <input type="file" id="jsonFileInput" accept=".json">
-                </div>
+                <section class="card" id="uploadSection">
+                    <h2 class="section-title">Load Player Data</h2>
+                    <p class="section-subtitle">Please select the 'players.json' file.</p>
+                    
+                    <input type="file" id="jsonFileInput" accept=".json" class="file-input">
+                </section>
 
-                <!-- This is where all the player cards will appear -->
-                <div id="players-container"></div>
+                <div id="playersContainer" class="players-container hidden"></div>
 
-                <a href="#top" class="back-to-top" aria-label="Go to top">&#8593;</a>
+                <a href="#top" class="back-to-top" aria-label="Go to top"> &#8593; </a>
             </div>
         </main>
 
         <footer class="footer" id="mainFooter">
             <div class="footer__container" id="footerContainer">
-                <div class="style-controls" id="styleControls" style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 8px; margin-bottom: 20px;">
-                    <p style="margin-bottom: 10px; font-weight: bold;">Page Styling Options</p>
+                <div class="style-controls" id="styleControls">
+                    <p class="style-controls__title">Page Styling Options</p>
                     
-                    <label for="elementSelect" style="margin-right: 10px;">1. Select Element:</label>
-                    <select id="elementSelect" style="margin-right: 20px; padding: 5px;">
-                        <option value="">--Choose Element--</option>
+                    <label for="elementSelect" class="style-controls__label">Select Element:</label>
+                    <select id="elementSelect" class="style-controls__select">
+                        <option value="">Choose Element</option>
                     </select>
 
-                    <label for="styleSelect" style="margin-right: 10px;">2. Modify Appearance:</label>
-                    <select id="styleSelect" style="padding: 5px;">
-                        <option value="">--Choose Style--</option>
+                    <label for="styleSelect" class="style-controls__label">Modify Appearance:</label>
+                    <select id="styleSelect" class="style-controls__select">
+                        <option value="">Choose Style</option>
                         <option value="color-red">Text Color: Red</option>
                         <option value="color-blue">Text Color: Real Madrid Blue</option>
                         <option value="size-large">Font Size: Large</option>

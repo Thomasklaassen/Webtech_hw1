@@ -367,7 +367,39 @@ body {
     background-color: gold;
     font-weight: bold;
 }
+.style-controls {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
 
+.style-controls__title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.style-controls__label {
+    margin-right: 10px;
+}
+
+.style-controls__select {
+    padding: 5px;
+}
+
+#elementSelect {
+    margin-right: 20px;
+}
+
+/*File Upload & Spelers Container */
+.file-input {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.players-container.hidden {
+    display: none;
+}
 /*Footer */
 .footer {
     background-color: #00529F;

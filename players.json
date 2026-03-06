@@ -1,192 +1,306 @@
-{
-  "sections": [
+[
     {
-      "title": "Goalkeepers",
-      "players": [
-        {
-          "name": "Thibaut Courtois",
-          "position": "Goalkeeper",
-          "number": 1,
-          "image": "images/players/courtois.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/thibaut-courtois"
-        },
-        {
-          "name": "Andriy Lunin",
-          "position": "Goalkeeper",
-          "number": 13,
-          "image": "images/players/lunin.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/andriy-lunin"
-        }
-      ]
+        "firstName": "Thibaut",
+        "lastName": "Courtois",
+        "born": "1992-05-11",
+        "nationality": "Belgian",
+        "role": "Goalkeeper",
+        "number": 1,
+        "photo": "images/players/courtois.jpg",
+        "formerTeams": [
+            { "title": "Chelsea FC", "country": "England", "city": "London" },
+            { "title": "Atletico Madrid", "country": "Spain", "city": "Madrid" },
+            { "title": "KRC Genk", "country": "Belgium", "city": "Genk" }
+        ]
     },
     {
-      "title": "Defenders",
-      "players": [
-        {
-          "name": "Dani Carvajal",
-          "position": "Defender",
-          "number": 2,
-          "image": "images/players/carvajal.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/daniel-carvajal-ramos"
-        },
-        {
-          "name": "Eder Militão",
-          "position": "Defender",
-          "number": 3,
-          "image": "images/players/militao.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/eder-gabriel-militao"
-        },
-        {
-          "name": "David Alaba",
-          "position": "Defender",
-          "number": 4,
-          "image": "images/players/alaba.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/david-alaba"
-        },
-        {
-          "name": "Trent Alexander-Arnold",
-          "position": "Defender",
-          "number": 12,
-          "image": "images/players/trent.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/trent-alexander-arnold"
-        },
-        {
-          "name": "Raúl Asencio",
-          "position": "Defender",
-          "number": 17,
-          "image": "images/players/asencio.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/raul-asencio-del-rosario"
-        },
-        {
-          "name": "Álvaro Carreras",
-          "position": "Defender",
-          "number": 18,
-          "image": "images/players/carreras.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/alvaro-fernandez-carreras"
-        },
-        {
-          "name": "Fran García",
-          "position": "Defender",
-          "number": 20,
-          "image": "images/players/garcia.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/francisco-jose-garcia-torres"
-        },
-        {
-          "name": "Antonio Rüdiger",
-          "position": "Defender",
-          "number": 22,
-          "image": "images/players/rudiger.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/antonio-rudiger"
-        },
-        {
-          "name": "Ferland Mendy",
-          "position": "Defender",
-          "number": 23,
-          "image": "images/players/mendy.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/ferland-mendy"
-        },
-        {
-          "name": "Dean Huijsen",
-          "position": "Defender",
-          "number": 24,
-          "image": "images/players/huijsen.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/dean-huijsen"
-        }
-      ]
+        "firstName": "Andriy",
+        "lastName": "Lunin",
+        "born": "1999-02-11",
+        "nationality": "Ukrainian",
+        "role": "Goalkeeper",
+        "number": 13,
+        "photo": "images/players/lunin.jpg",
+        "formerTeams": [
+            { "title": "Zorya Luhansk", "country": "Ukraine", "city": "Zaporizhzhia" },
+            { "title": "Dnipro", "country": "Ukraine", "city": "Dnipro" }
+        ]
     },
     {
-      "title": "Midfielders",
-      "players": [
-        {
-          "name": "Jude Bellingham",
-          "position": "Midfielder",
-          "number": 5,
-          "image": "images/players/bellingham.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/jude-bellingham"
-        },
-        {
-          "name": "Eduardo Camavinga",
-          "position": "Midfielder",
-          "number": 6,
-          "image": "images/players/camavinga.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/eduardo-camavinga"
-        },
-        {
-          "name": "Fede Valverde",
-          "position": "Midfielder",
-          "number": 8,
-          "image": "images/players/valverde.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/federico-santiago-valverde-dipetta"
-        },
-        {
-          "name": "Aurélien Tchouaméni",
-          "position": "Midfielder",
-          "number": 14,
-          "image": "images/players/tchouameni.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/aurelien-tchouameni"
-        },
-        {
-          "name": "Arda Güler",
-          "position": "Midfielder",
-          "number": 15,
-          "image": "images/players/guler.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/arda-guler"
-        },
-        {
-          "name": "Daniel Ceballos",
-          "position": "Midfielder",
-          "number": 19,
-          "image": "images/players/ceballos.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/daniel-ceballos-fernandez"
-        }
-      ]
+        "firstName": "Dani",
+        "lastName": "Carvajal",
+        "born": "1992-01-11",
+        "nationality": "Spanish",
+        "role": "Defender",
+        "number": 2,
+        "photo": "images/players/carvajal.jpg",
+        "formerTeams": [
+            { "title": "Bayer Leverkusen", "country": "Germany", "city": "Leverkusen" }
+        ]
     },
     {
-      "title": "Forwards",
-      "players": [
-        {
-          "name": "Vinícius Júnior",
-          "position": "Forward",
-          "number": 7,
-          "image": "images/players/vinicius.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/vinicius-paixao-de-oliveira-junior"
-        },
-        {
-          "name": "Kylian Mbappé",
-          "position": "Forward",
-          "number": 10,
-          "image": "images/players/mbappe.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/kylian-mbappe"
-        },
-        {
-          "name": "Rodrygo Goes",
-          "position": "Forward",
-          "number": 11,
-          "image": "images/players/rodrygo.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/rodrygo-goes"
-        },
-        {
-          "name": "Gonzalo García",
-          "position": "Forward",
-          "number": 16,
-          "image": "images/players/gonzalo.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/gonzalo-garcia-torres"
-        },
-        {
-          "name": "Brahim Díaz",
-          "position": "Forward",
-          "number": 21,
-          "image": "images/players/brahim.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/brahim-diaz"
-        },
-        {
-          "name": "Franco Mastantuono",
-          "position": "Forward",
-          "number": 30,
-          "image": "images/players/franco.jpg",
-          "link": "https://www.realmadrid.com/en-US/football/first-team/players/franco-mastantuono"
-        }
-      ]
+        "firstName": "Eder",
+        "lastName": "Militão",
+        "born": "1998-01-18",
+        "nationality": "Brazilian",
+        "role": "Defender",
+        "number": 3,
+        "photo": "images/players/militao.jpg",
+        "formerTeams": [
+            { "title": "FC Porto", "country": "Portugal", "city": "Porto" },
+            { "title": "São Paulo", "country": "Brazil", "city": "São Paulo" }
+        ]
+    },
+    {
+        "firstName": "David",
+        "lastName": "Alaba",
+        "born": "1992-06-24",
+        "nationality": "Austrian",
+        "role": "Defender",
+        "number": 4,
+        "photo": "images/players/alaba.jpg",
+        "formerTeams": [
+            { "title": "Bayern Munich", "country": "Germany", "city": "Munich" },
+            { "title": "Hoffenheim", "country": "Germany", "city": "Sinsheim" }
+        ]
+    },
+    {
+        "firstName": "Trent",
+        "lastName": "Alexander-Arnold",
+        "born": "1998-10-07",
+        "nationality": "English",
+        "role": "Defender",
+        "number": 12,
+        "photo": "images/players/trent.jpg",
+        "formerTeams": [
+            { "title": "Liverpool FC", "country": "England", "city": "Liverpool" }
+        ]
+    },
+    {
+        "firstName": "Raúl",
+        "lastName": "Asencio",
+        "born": "2003-02-13",
+        "nationality": "Spanish",
+        "role": "Defender",
+        "number": 17,
+        "photo": "images/players/asencio.jpg",
+        "formerTeams": [
+            { "title": "Las Palmas (Youth)", "country": "Spain", "city": "Las Palmas" }
+        ]
+    },
+    {
+        "firstName": "Álvaro",
+        "lastName": "Carreras",
+        "born": "2003-03-23",
+        "nationality": "Spanish",
+        "role": "Defender",
+        "number": 18,
+        "photo": "images/players/carreras.jpg",
+        "formerTeams": [
+            { "title": "Benfica", "country": "Portugal", "city": "Lisbon" },
+            { "title": "Manchester United", "country": "England", "city": "Manchester" }
+        ]
+    },
+    {
+        "firstName": "Fran",
+        "lastName": "García",
+        "born": "1999-08-14",
+        "nationality": "Spanish",
+        "role": "Defender",
+        "number": 20,
+        "photo": "images/players/garcia.jpg",
+        "formerTeams": [
+            { "title": "Rayo Vallecano", "country": "Spain", "city": "Madrid" }
+        ]
+    },
+    {
+        "firstName": "Antonio",
+        "lastName": "Rüdiger",
+        "born": "1993-03-03",
+        "nationality": "German",
+        "role": "Defender",
+        "number": 22,
+        "photo": "images/players/rudiger.jpg",
+        "formerTeams": [
+            { "title": "Chelsea FC", "country": "England", "city": "London" },
+            { "title": "AS Roma", "country": "Italy", "city": "Rome" },
+            { "title": "VfB Stuttgart", "country": "Germany", "city": "Stuttgart" }
+        ]
+    },
+    {
+        "firstName": "Ferland",
+        "lastName": "Mendy",
+        "born": "1995-06-08",
+        "nationality": "French",
+        "role": "Defender",
+        "number": 23,
+        "photo": "images/players/mendy.jpg",
+        "formerTeams": [
+            { "title": "Olympique Lyon", "country": "France", "city": "Lyon" },
+            { "title": "Le Havre", "country": "France", "city": "Le Havre" }
+        ]
+    },
+    {
+        "firstName": "Dean",
+        "lastName": "Huijsen",
+        "born": "2005-04-14",
+        "nationality": "Spanish",
+        "role": "Defender",
+        "number": 24,
+        "photo": "images/players/huijsen.jpg",
+        "formerTeams": [
+            { "title": "Juventus", "country": "Italy", "city": "Turin" },
+            { "title": "AS Roma", "country": "Italy", "city": "Rome" }
+        ]
+    },
+    {
+        "firstName": "Jude",
+        "lastName": "Bellingham",
+        "born": "2003-06-29",
+        "nationality": "English",
+        "role": "Midfielder",
+        "number": 5,
+        "photo": "images/players/bellingham.jpg",
+        "formerTeams": [
+            { "title": "Borussia Dortmund", "country": "Germany", "city": "Dortmund" },
+            { "title": "Birmingham City", "country": "England", "city": "Birmingham" }
+        ]
+    },
+    {
+        "firstName": "Eduardo",
+        "lastName": "Camavinga",
+        "born": "2002-11-10",
+        "nationality": "French",
+        "role": "Midfielder",
+        "number": 6,
+        "photo": "images/players/camavinga.jpg",
+        "formerTeams": [
+            { "title": "Stade Rennais", "country": "France", "city": "Rennes" }
+        ]
+    },
+    {
+        "firstName": "Fede",
+        "lastName": "Valverde",
+        "born": "1998-07-22",
+        "nationality": "Uruguayan",
+        "role": "Midfielder",
+        "number": 8,
+        "photo": "images/players/valverde.jpg",
+        "formerTeams": [
+            { "title": "Deportivo La Coruña", "country": "Spain", "city": "A Coruña" },
+            { "title": "Peñarol", "country": "Uruguay", "city": "Montevideo" }
+        ]
+    },
+    {
+        "firstName": "Aurélien",
+        "lastName": "Tchouaméni",
+        "born": "2000-01-27",
+        "nationality": "French",
+        "role": "Midfielder",
+        "number": 14,
+        "photo": "images/players/tchouameni.jpg",
+        "formerTeams": [
+            { "title": "AS Monaco", "country": "Monaco", "city": "Monaco" },
+            { "title": "Bordeaux", "country": "France", "city": "Bordeaux" }
+        ]
+    },
+    {
+        "firstName": "Arda",
+        "lastName": "Güler",
+        "born": "2005-02-25",
+        "nationality": "Turkish",
+        "role": "Midfielder",
+        "number": 15,
+        "photo": "images/players/guler.jpg",
+        "formerTeams": [
+            { "title": "Fenerbahçe", "country": "Turkey", "city": "Istanbul" }
+        ]
+    },
+    {
+        "firstName": "Daniel",
+        "lastName": "Ceballos",
+        "born": "1996-08-07",
+        "nationality": "Spanish",
+        "role": "Midfielder",
+        "number": 19,
+        "photo": "images/players/ceballos.jpg",
+        "formerTeams": [
+            { "title": "Arsenal FC", "country": "England", "city": "London" },
+            { "title": "Real Betis", "country": "Spain", "city": "Seville" }
+        ]
+    },
+    {
+        "firstName": "Vinícius",
+        "lastName": "Júnior",
+        "born": "2000-07-12",
+        "nationality": "Brazilian",
+        "role": "Forward",
+        "number": 7,
+        "photo": "images/players/vinicius.jpg",
+        "formerTeams": [
+            { "title": "Flamengo", "country": "Brazil", "city": "Rio de Janeiro" }
+        ]
+    },
+    {
+        "firstName": "Kylian",
+        "lastName": "Mbappé",
+        "born": "1998-12-20",
+        "nationality": "French",
+        "role": "Forward",
+        "number": 10,
+        "photo": "images/players/mbappe.jpg",
+        "formerTeams": [
+            { "title": "Paris Saint-Germain", "country": "France", "city": "Paris" },
+            { "title": "AS Monaco", "country": "Monaco", "city": "Monaco" }
+        ]
+    },
+    {
+        "firstName": "Rodrygo",
+        "lastName": "Goes",
+        "born": "2001-01-09",
+        "nationality": "Brazilian",
+        "role": "Forward",
+        "number": 11,
+        "photo": "images/players/rodrygo.jpg",
+        "formerTeams": [
+            { "title": "Santos FC", "country": "Brazil", "city": "Santos" }
+        ]
+    },
+    {
+        "firstName": "Gonzalo",
+        "lastName": "García",
+        "born": "2004-03-24",
+        "nationality": "Spanish",
+        "role": "Forward",
+        "number": 16,
+        "photo": "images/players/gonzalo.jpg",
+        "formerTeams": [
+            { "title": "RCD Mallorca (Youth)", "country": "Spain", "city": "Palma" }
+        ]
+    },
+    {
+        "firstName": "Brahim",
+        "lastName": "Díaz",
+        "born": "1999-08-03",
+        "nationality": "Moroccan",
+        "role": "Forward",
+        "number": 21,
+        "photo": "images/players/brahim.jpg",
+        "formerTeams": [
+            { "title": "AC Milan", "country": "Italy", "city": "Milan" },
+            { "title": "Manchester City", "country": "England", "city": "Manchester" }
+        ]
+    },
+    {
+        "firstName": "Franco",
+        "lastName": "Mastantuono",
+        "born": "2007-08-14",
+        "nationality": "Argentine",
+        "role": "Forward",
+        "number": 30,
+        "photo": "images/players/franco.jpg",
+        "formerTeams": [
+            { "title": "River Plate", "country": "Argentina", "city": "Buenos Aires" }
+        ]
     }
-  ]
-}
+]
