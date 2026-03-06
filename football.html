@@ -107,12 +107,29 @@
             </div>
         </main>
          <a href="#top" class="back-to-top" aria-label="Go to top"> &#8593; </a>
-         <footer class="footer">
-            <div class="footer__container">
+        <footer class="footer" id="mainFooter">
+            <div class="footer__container" id="footerContainer">
+                <div class="style-controls" id="styleControls" style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                    <p style="margin-bottom: 10px; font-weight: bold;">Page Styling Options</p>
+                    
+                    <label for="elementSelect" style="margin-right: 10px;">1. Select Element:</label>
+                    <select id="elementSelect" style="margin-right: 20px; padding: 5px;">
+                        <option value="">--Choose Element--</option>
+                    </select>
+
+                    <label for="styleSelect" style="margin-right: 10px;">2. Modify Appearance:</label>
+                    <select id="styleSelect" style="padding: 5px;">
+                        <option value="">--Choose Style--</option>
+                        <option value="color-red">Text Color: Red</option>
+                        <option value="color-blue">Text Color: Real Madrid Blue</option>
+                        <option value="size-large">Font Size: Large</option>
+                        <option value="size-small">Font Size: Small</option>
+                    </select>
+                </div>
                 <p class="footer__text">&copy; 2026 All rights reserved to Real Madrid C.F.</p>
-                <p class="footer__text">For official league news, visit <a class="footer__link" href="https://www.realmadrid.com" target="_blank" rel="noopener noreferrer">Real Madrid's Official Website</a>
-                </p>
+                <p class="footer__text">For official league news, visit <a class="footer__link" href="https://www.realmadrid.com" target="_blank" rel="noopener noreferrer">Real Madrid's Official Website</a></p>
             </div>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
